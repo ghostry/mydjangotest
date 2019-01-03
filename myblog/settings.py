@@ -25,7 +25,7 @@ SECRET_KEY = 'knfygg2$#vpbnw&1@0zz#2%icbgba&#1vaq16^d7q%ig#slq_='
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['ghostry.pythonanywhere.com']
+ALLOWED_HOSTS = ['ghostry.pythonanywhere.com','127.0.0.1']
 
 
 # Application definition
@@ -120,5 +120,6 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/2.1/howto/static-files/
 
 STATIC_URL = '/static/'
-STATIC_ROOT = os.path.join(BASE_DIR, 'static')
+STATIC_ROOT = '/'
+STATICFILES_DIRS = ( os.path.join('static'), )
 STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
