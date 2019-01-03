@@ -25,7 +25,7 @@ SECRET_KEY = 'knfygg2$#vpbnw&1@0zz#2%icbgba&#1vaq16^d7q%ig#slq_='
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['ghostry.pythonanywhere.com']
 
 
 # Application definition
